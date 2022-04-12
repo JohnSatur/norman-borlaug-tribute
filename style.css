@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 0 1em;
+}
+
+.header {
+  width: 100%;
+  background-color: #FFF;
+  margin: 3em 0 1.2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.7em;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: .938rem;
+  font-weight: normal;
+}
+
+.hero {
+  margin: 0 auto;
+  padding: .6em;
+}
+
+.hero .hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero .img-text {
+  text-align: center;
+  margin: .8em auto;
+}
+
+.main {
+  max-width: 550px;
+  margin: 4em auto 3em auto;
+}
+
+.main .timeline-title {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.main .timeline-item {
+  margin: 1.3em 0;
+  line-height: 1.6;
+}
+
+.quote-text {
+  margin-bottom: 2em;
+}
+
+.farewell {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2em;
+}
